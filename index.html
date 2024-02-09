@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- style web -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- icon -->
+    <link rel="icon" href="asset/logo.png" type="icon">
+
+    <title>Todo-App</title>
+
+</head>
+<body>
+    
+    <section>
+        <div class="todo-app">
+            <div class="card">
+                <div class="card-header">
+                    <h1>To Do List Your Activity <img src="asset/logo.png" alt=""></h1>
+                </div>
+                <div class="card-body">
+                    <div class="input">
+                        <input type="text" name="input-box" id="input-box" autofocus="1">
+                        <button onclick="addTask()">Add</button>
+                    </div>
+                    <div id="error">
+                        <p>Kamu Belum Mengisi Aktivitas</p>
+                    </div>
+                </div>
+                <div class="card-foot">
+                    <div class="task-list">
+                        <ul id="task">
+                            <!-- isi task -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
